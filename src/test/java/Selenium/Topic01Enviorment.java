@@ -18,7 +18,7 @@ public class Topic01Enviorment {
 
     @Test
     public void TC_03_Run_On_Edge() {
-        driver = new EdgeDriver();
+        driver = new EdgeDriver(); //tạo mới trang wweb
         driver.get("https://www.facebook.com/");
         driver.quit();
     }
